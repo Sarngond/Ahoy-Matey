@@ -46,7 +46,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\MyHUD.cs" />
+     <Compile Include="Assets\Scripts\MyNetworkManager.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity 5.6/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
