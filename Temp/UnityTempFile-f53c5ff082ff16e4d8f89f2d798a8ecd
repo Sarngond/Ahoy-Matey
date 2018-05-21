@@ -89,7 +89,7 @@
 -define:UNITY_EDITOR_WIN
 -define:ENABLE_NATIVE_ARRAY_CHECKS
 -define:UNITY_TEAM_LICENSE
-Assets/Scripts/MyHUD.cs
+Assets/Scripts/MyNetworkManager.cs
 -r:"C:\Program Files\Unity 5.6\Editor\Data\Mono\lib\mono\unity\System.Runtime.Serialization.dll"
 -r:"C:\Program Files\Unity 5.6\Editor\Data\Mono\lib\mono\unity\System.Xml.Linq.dll"
 -r:"C:\Program Files\Unity 5.6\Editor\Data\Mono\lib\mono\unity\UnityScript.dll"
