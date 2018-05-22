@@ -2,16 +2,18 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityStandardAssets.CrossPlatformInput;
+using UnityEngine.Networking;
 
-public class Player : MonoBehaviour {
+public class Player : NetworkBehaviour {
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
+	public float moveSpeed = 10f;
+
 	// Update is called once per frame
 	void Update () {
+		if (!isLocalPlayer) {
+			return;
+		}
+
 		Move ();
 	}
 
@@ -19,7 +21,7 @@ public class Player : MonoBehaviour {
 		float h = CrossPlatformInputManager.GetAxis ("Horizontal");
 		float v = CrossPlatformInputManager.GetAxis ("Vertical");
 
-		transform.Translate (new Vector3 (h, 0, v));
+		transform.Translate (new Vector3 (h, 0, v) * Time.deltaTime * moveSpeed);
 
 	}
 }
