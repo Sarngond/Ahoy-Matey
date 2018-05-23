@@ -9,6 +9,8 @@ Direct3D:
 Begin MonoManager ReloadAssembly
 Platform assembly: C:\Users\CAP\Desktop\allen\UnityProjects\Ahoy Matey\Builds\AhoyMateyTest1_Data\Managed\UnityEngine.dll (this message is harmless)
 Loading C:\Users\CAP\Desktop\allen\UnityProjects\Ahoy Matey\Builds\AhoyMateyTest1_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\CAP\Desktop\allen\UnityProjects\Ahoy Matey\Builds\AhoyMateyTest1_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\CAP\Desktop\allen\UnityProjects\Ahoy Matey\Builds\AhoyMateyTest1_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
 Platform assembly: C:\Users\CAP\Desktop\allen\UnityProjects\Ahoy Matey\Builds\AhoyMateyTest1_Data\Managed\Assembly-CSharp.dll (this message is harmless)
 Loading C:\Users\CAP\Desktop\allen\UnityProjects\Ahoy Matey\Builds\AhoyMateyTest1_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
 Platform assembly: C:\Users\CAP\Desktop\allen\UnityProjects\Ahoy Matey\Builds\AhoyMateyTest1_Data\Managed\UnityEngine.UI.dll (this message is harmless)
@@ -17,20 +19,20 @@ Platform assembly: C:\Users\CAP\Desktop\allen\UnityProjects\Ahoy Matey\Builds\Ah
 Loading C:\Users\CAP\Desktop\allen\UnityProjects\Ahoy Matey\Builds\AhoyMateyTest1_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
 Platform assembly: C:\Users\CAP\Desktop\allen\UnityProjects\Ahoy Matey\Builds\AhoyMateyTest1_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
 Loading C:\Users\CAP\Desktop\allen\UnityProjects\Ahoy Matey\Builds\AhoyMateyTest1_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
-- Completed reload, in  0.073 seconds
+- Completed reload, in  0.166 seconds
 Platform assembly: C:\Users\CAP\Desktop\allen\UnityProjects\Ahoy Matey\Builds\AhoyMateyTest1_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: C:\Users\CAP\Desktop\allen\UnityProjects\Ahoy Matey\Builds\AhoyMateyTest1_Data\Managed\System.dll (this message is harmless)
 desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 1.916544 ms
+UnloadTime: 1.179533 ms
 Setting up 4 worker threads for Enlighten.
-  Thread -> id: c98 -> priority: 1 
-  Thread -> id: 2fec -> priority: 1 
-  Thread -> id: 1340 -> priority: 1 
-  Thread -> id: 32b8 -> priority: 1 
-1.957658 Client start requested.
+  Thread -> id: 14ac -> priority: 1 
+  Thread -> id: 3ffc -> priority: 1 
+  Thread -> id: 297c -> priority: 1 
+  Thread -> id: 71c -> priority: 1 
+9.067168 Client start requested.
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
@@ -38,23 +40,17 @@ Setting up 4 worker threads for Enlighten.
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-2.023766 Client is connected to IP: 10.0.0.31
+9.346551 Client is connected to IP: 127.0.0.1
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-71.95235 Client start requested.
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 14.175717 ms
 
-.
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 330.
+Total: 29.311483 ms (FindLiveObjects: 0.027632 ms CreateObjectMapping: 0.026843 ms MarkObjects: 29.243982 ms  DeleteObjects: 0.012237 ms)
 
-71.98537 Client is connected to IP: 10.0.0.31
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-78.33009 Client start requested.
+72.18095 Client start requested.
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
@@ -62,125 +58,85 @@ Setting up 4 worker threads for Enlighten.
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-78.36244 Client is connected to IP: 10.0.0.31
+72.19783 Client is connected to IP: 127.0.0.1
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-109.1482 Client start requested.
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.492261 ms
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 333.
+Total: 0.237248 ms (FindLiveObjects: 0.011447 ms CreateObjectMapping: 0.013026 ms MarkObjects: 0.209615 ms  DeleteObjects: 0.003158 ms)
+
+9.891976 Client start requested.
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
 .
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+9.908686 Client is connected to IP: 127.0.0.1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.395151 ms
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 333.
+Total: 0.230143 ms (FindLiveObjects: 0.011447 ms CreateObjectMapping: 0.013026 ms MarkObjects: 0.193430 ms  DeleteObjects: 0.012237 ms)
+
+19.21601 Client start requested.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+19.23242 Client is connected to IP: 127.0.0.1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.294883 ms
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 333.
+Total: 0.225406 ms (FindLiveObjects: 0.011447 ms CreateObjectMapping: 0.013816 ms MarkObjects: 0.196588 ms  DeleteObjects: 0.003552 ms)
 
 reactor filed to acomplish request with code {1234}, bytesReceived {0}
-.
+reactor filed to acomplish request with code {1234}, bytesReceived {0}
+reactor filed to acomplish request with code {1234}, bytesReceived {0}
+reactor filed to acomplish request with code {1234}, bytesReceived {0}
+Log: connection {1} has been disconnected by timeout; address {::ffff:127.0.0.1:7777}
+ClientDisconnected due to error: Timeout
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+11.94046 Client start requested.
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
 .
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+11.97177 Client is connected to IP: 127.0.0.1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.299225 ms
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 333.
+Total: 0.275935 ms (FindLiveObjects: 0.018553 ms CreateObjectMapping: 0.023290 ms MarkObjects: 0.229353 ms  DeleteObjects: 0.004342 ms)
 
 reactor filed to acomplish request with code {1234}, bytesReceived {0}
-.
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-.
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
 reactor filed to acomplish request with code {1234}, bytesReceived {0}
-.
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-.
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
 reactor filed to acomplish request with code {1234}, bytesReceived {0}
-.
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-.
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
 reactor filed to acomplish request with code {1234}, bytesReceived {0}
-.
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-.
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-reactor filed to acomplish request with code {1234}, bytesReceived {0}
-.
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-.
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-.
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-.
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-.
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-.
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-125.5631 Host started.
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-125.5631 Client start requested.
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-.
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-125.5631 Client is connected to IP: localServer
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-165.0894 Client start requested.
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-.
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-165.1225 Client is connected to IP: 10.0.0.31
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-171.3064 Client start requested.
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-.
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-171.3347 Client is connected to IP: 10.0.0.31
+Log: connection {1} has been disconnected by timeout; address {::ffff:127.0.0.1:7777}
+ClientDisconnected due to error: Timeout
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
