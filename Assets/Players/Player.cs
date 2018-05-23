@@ -26,6 +26,6 @@ public class Player : NetworkBehaviour {
 	}
 
 	public override void OnStartLocalPlayer() {
-		playerCamera = GetComponentInChildren<Camera> ();
+		GetComponentInChildren<Camera> ().enabled = true;
 	}
 }
