@@ -7,6 +7,7 @@ using UnityEngine.Networking;
 public class Player : NetworkBehaviour {
 
 	public float moveSpeed = 10f;
+	private Camera playerCamera;
 
 	// Update is called once per frame
 	void Update () {
@@ -22,5 +23,9 @@ public class Player : NetworkBehaviour {
 		float v = CrossPlatformInputManager.GetAxis ("Vertical");
 
 		transform.Translate (new Vector3 (h, 0, v) * Time.deltaTime * moveSpeed);
+	}
+
+	public override void OnStartLocalPlayer() {
+		playerCamera = GetComponentInChildren<Camera> ();
 	}
 }
