@@ -287,10 +287,10 @@ MonoBehaviour:
   m_DepthBufferBits: 0
   m_Pos:
     serializedVersion: 2
-    x: 218
-    y: 113
-    width: 467
-    height: 364
+    x: 329
+    y: 92
+    width: 757
+    height: 401
   m_MaximizeOnPlay: 0
   m_Gizmos: 0
   m_Stats: 0
@@ -299,10 +299,10 @@ MonoBehaviour:
   m_ZoomArea:
     m_HRangeLocked: 0
     m_VRangeLocked: 0
-    m_HBaseRangeMin: -233.5
-    m_HBaseRangeMax: 233.5
-    m_VBaseRangeMin: -173.5
-    m_VBaseRangeMax: 173.5
+    m_HBaseRangeMin: -378.5
+    m_HBaseRangeMax: 378.5
+    m_VBaseRangeMin: -192
+    m_VBaseRangeMax: 192
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -319,25 +319,25 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 17
-      width: 467
-      height: 347
+      width: 757
+      height: 384
     m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 233.5, y: 173.5}
+    m_Translation: {x: 378.5, y: 192}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -233.5
-      y: -173.5
-      width: 467
-      height: 347
+      x: -378.5
+      y: -192
+      width: 757
+      height: 384
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_TargetTexture: {fileID: 0}
   m_CurrentColorSpace: 0
-  m_LastWindowPixelSize: {x: 467, y: 364}
+  m_LastWindowPixelSize: {x: 757, y: 401}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000100000100
@@ -369,9 +369,9 @@ MonoBehaviour:
     height: 401
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 88290000
-    m_LastClickedID: 10632
-    m_ExpandedIDs: 7ec6fdff2ac7fdffeec7fdffd0fbffff00000000
+    m_SelectedIDs: 
+    m_LastClickedID: 0
+    m_ExpandedIDs: d0fbffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -451,13 +451,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: 0.08717229, y: -0.89959055, z: 0.21045254, w: 0.3726226}
+    m_Target: {x: 0.08840281, y: -0.86666745, z: 0.16577889, w: 0.46215695}
     speed: 2
-    m_Value: {x: 0.08717229, y: -0.89959055, z: 0.21045254, w: 0.3726226}
+    m_Value: {x: 0.088402845, y: -0.8666678, z: 0.16577896, w: 0.46215713}
   m_Size:
-    m_Target: 4.9960938
+    m_Target: 15.215956
     speed: 2
-    m_Value: 4.9960938
+    m_Value: 15.215956
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -533,18 +533,18 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets
+    - Assets/Players
   m_ViewMode: 1
   m_StartGridSize: 61
   m_LastFolders:
-  - Assets
+  - Assets/Players
   m_LastFoldersGridSize: 61
   m_LastProjectPath: C:\Users\CAP\Desktop\allen\UnityProjects\Ahoy Matey
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: be240000
-    m_LastClickedID: 9406
+    m_SelectedIDs: e2250000
+    m_LastClickedID: 9698
     m_ExpandedIDs: 00000000be24000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -833,6 +833,17 @@ MonoBehaviour:
       output: 
       stacktrace: 
       notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+    - id: '[Ahoy Matey][Assembly-CSharp-Editor-firstpass.dll]'
+      name: Assembly-CSharp-Editor-firstpass.dll
+      fullName: C:/Users/CAP/Desktop/allen/UnityProjects/Ahoy Matey/Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll
+      resultStatus: 2
+      duration: 0
+      messages: Has no TestFixtures
+      output: 
+      stacktrace: 
+      notRunnable: 1
       ignoredOrSkipped: 0
       description: 
     m_ResultText: 

@@ -2,7 +2,7 @@
 -target:library
 -nowarn:0169
 -langversion:4
--out:Temp/Assembly-CSharp.dll
+-out:Temp/Assembly-CSharp-firstpass.dll
 -unsafe
 -r:"C:/Program Files/Unity 5.6/Editor/Data/Managed/UnityEngine.dll"
 -r:"C:/Program Files/Unity 5.6/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll"
@@ -89,7 +89,18 @@
 -define:UNITY_EDITOR_WIN
 -define:ENABLE_NATIVE_ARRAY_CHECKS
 -define:UNITY_TEAM_LICENSE
-Assets/Scripts/MyNetworkManager.cs
+-define:CROSS_PLATFORM_INPUT
+"Assets/Standard Assets/CrossPlatformInput/Scripts/AxisTouchButton.cs"
+"Assets/Standard Assets/CrossPlatformInput/Scripts/ButtonHandler.cs"
+"Assets/Standard Assets/CrossPlatformInput/Scripts/CrossPlatformInputManager.cs"
+"Assets/Standard Assets/CrossPlatformInput/Scripts/InputAxisScrollbar.cs"
+"Assets/Standard Assets/CrossPlatformInput/Scripts/Joystick.cs"
+"Assets/Standard Assets/CrossPlatformInput/Scripts/MobileControlRig.cs"
+"Assets/Standard Assets/CrossPlatformInput/Scripts/PlatformSpecific/MobileInput.cs"
+"Assets/Standard Assets/CrossPlatformInput/Scripts/PlatformSpecific/StandaloneInput.cs"
+"Assets/Standard Assets/CrossPlatformInput/Scripts/TiltInput.cs"
+"Assets/Standard Assets/CrossPlatformInput/Scripts/TouchPad.cs"
+"Assets/Standard Assets/CrossPlatformInput/Scripts/VirtualInput.cs"
 -r:"C:\Program Files\Unity 5.6\Editor\Data\Mono\lib\mono\unity\System.Runtime.Serialization.dll"
 -r:"C:\Program Files\Unity 5.6\Editor\Data\Mono\lib\mono\unity\System.Xml.Linq.dll"
 -r:"C:\Program Files\Unity 5.6\Editor\Data\Mono\lib\mono\unity\UnityScript.dll"

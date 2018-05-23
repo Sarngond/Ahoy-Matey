@@ -22,6 +22,5 @@ public class Player : NetworkBehaviour {
 		float v = CrossPlatformInputManager.GetAxis ("Vertical");
 
 		transform.Translate (new Vector3 (h, 0, v) * Time.deltaTime * moveSpeed);
-
 	}
 }
